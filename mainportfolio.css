@@ -1,0 +1,372 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100vw;
+}
+
+@font-face {
+    font-family: myFont;
+    src: url(atmospheric.ttf);
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+}
+
+#NOM{
+    font-family: myFont;
+    color: white;
+    font-size: xxx-large;
+}
+
+nav{
+    background: linear-gradient(to bottom, #1573C6, black);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+
+    
+}
+
+
+a{
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    font-family: myFont;
+    font-size: xx-large;
+}
+
+.GROSTITRES{
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+#row1{
+    display: flex;
+    flex-direction: row;
+    max-width: 90vw;
+}
+
+#image1{
+    max-width: 660px;
+}
+
+
+#texte1{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.titres{
+    font-family: myFont;
+    color: white;
+    font-size: xxx-large;
+}
+
+.soustitres{
+    font-family: myFont;
+    color: white;
+    font-size: xx-large;
+}
+
+
+.textes{
+    margin: 0;
+    color: white;
+    font-size: x-large;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#colonne1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(./HOME/MOCKUP\ 2.png);
+    height: 125vh;
+    max-width: 85vw;
+}
+
+#texte2{
+    max-width: 80vh;
+}
+
+
+
+button{
+    font-family: myFont;
+    font-size: xx-large;
+    color: white;
+    background: linear-gradient(to bottom, #1573C6, black);
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+#titre2{
+    padding-left: 60px;
+    padding-top: 60px;
+    position: absolute;
+}
+
+#imagetext3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#texte3{
+    max-width: 60vw;
+    position: absolute;
+    padding-top: 92vh;
+
+}
+
+#bouton2{
+    display: flex;
+    justify-content: end;
+    padding-right: 60px;
+}
+
+
+
+
+#affiches{
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#thank{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 60px;
+    
+}
+
+
+#texticone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    bottom: 525px;
+}
+
+
+#TY{
+    font-family: myFont;
+    color: black;
+    font-size: xxx-large;
+}
+
+#icones{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.icone{
+    width: 100px;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+#telmail{
+    display: flex;
+    flex-direction: column;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+
+
+/*Page Skills*/
+
+
+
+
+.skills{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.logos{
+    height: 300px;
+    width: auto;
+    border-radius: 50px;
+}
+
+.textlogo{
+    width: 50vw;
+}
+
+
+
+
+
+
+/*gallery*/
+
+
+.titresgallery{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+
+#grille{
+ 
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 30vw 30vw 30vw;
+    
+}
+
+.imagesgallery{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.imagesgallery img{
+    width: 70%;
+    height: auto;
+    
+}
+
+
+#videos{
+    display: flex;
+    justify-content: space-around;
+}
+
+video{
+    width: 28vw;
+    height: auto;
+}
+
+
+
+
+
+
+
+/*PROJETS*/
+
+.rowprojets{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+
+.textesprojets{
+    width: 50vw;
+}
+
+
+
+.imagesprojets img{
+
+    width: 15vw;
+    height: auto;
+    border-radius: 5px;
+    position: relative;
+}
+
+#iphone{
+    width: 4vw;
+    height: auto;
+}
+
+#cookie{
+    position: absolute;
+    top: 47%;
+    left: 22%;
+}
+
+#abon{
+    position: absolute;
+    width: 10vw;
+    height: auto;
+    top: 75%;
+    transform: rotate(10deg);
+}
+
+#visite{
+    position: absolute;
+    width: 10vw;
+    height: auto;
+    top: 90%;
+    transform: rotate(-10deg);
+}
+
+
+
+#CP{
+    width: 10vw;
+    height: auto;
+    position: absolute;
+    left: 8%;
+   
+}
